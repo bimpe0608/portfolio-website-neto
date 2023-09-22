@@ -173,7 +173,7 @@ body {
 }
 
 .projectsContainer > div > img {
-  border: 8px solid black;
+  border: 4px solid black;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -223,6 +223,80 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .nav {
+    padding: 0 5%;
+  }
+
+  .navItems {
+    display: none;
+  }
+
+  .profileName {
+    width: 50%;
+  }
+
+  .mail {
+    width: 50%;
+  }
+
+  .heroSection {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 11rem;
+  }
+
+  .heroSection > div {
+    width: 88%;
+  }
+
+  .personalInformation h3 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .aboutMe > p {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Project Section */
+
+  .projectsContainer {
+    /* border: 3px solid red; */
+    flex-direction: column;
+    margin: auto;
+    padding: 0 2rem;
+  }
+
+  .projectSection h3 {
+    font-size: 36px;
+  }
+
+  .projectsContainer > div > img {
+    width: 96%;
+  }
+
+  /* Experience Section */
+
+  .experienceContainer {
+    flex-direction: column;
+    padding: 10rem 2rem 5rem 2rem;
+    gap: 2rem;
+  }
+
+  .experienceContainer > div {
+    width: 100%;
+    /* border: 3px solid green; */
+  }
+
+  .experienceVideo > iframe {
+    height: 302.1px;
+    width: 100%;
+  }
+
+  .experienceDescription h3 {
+    font-size: 32px;
+  }
 }
 
 /* @media screen and (min-width: 768px) and (max-width: 1023px)  */
